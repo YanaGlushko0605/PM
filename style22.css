@@ -1,0 +1,156 @@
+body {
+	background-image: url('img/backgr.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 2060px;
+	height: 2060px;
+	margin: 0 auto;
+}
+header {
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin: 0;
+}
+.slider {
+	display: block;
+}
+.backgr_overflow_container {
+	overflow: hidden;
+}
+.backgr_container {
+	position: relative;
+	max-width: 1200px;
+	height: 1610px;
+	margin: 50px auto 0 auto;
+}
+.backgr_img_left {
+	position: absolute;
+	top: -12%;
+	left: -35.5%;
+	opacity: 0.2;
+	width: 80%;
+	max-width: 950px;
+	z-index: -1;
+}
+.backgr_img_right {
+	position: absolute;
+	bottom: -15%;
+	right: -45%;
+	opacity: 0.2;
+	width: 80%;
+	max-width: 950px;
+	z-index: -1;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+	display: table;
+}
+nav {
+	float: right;
+	margin-top: 18px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+    clear: right;
+}
+nav li {
+	float: left;
+	display: block;
+	margin-left: 5px;
+}
+.menu{
+	margin-top: 14px;
+}
+.menu li{
+	margin-left: 25px;
+}
+nav li a {
+	color: #303030;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 0 0 0 0;
+}
+section {
+	width: 960px;
+	height: 270px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: table;
+	margin: 0 auto;
+}
+.main {
+	float: left;
+	text-align: center;
+	margin-top: 36px;
+}
+.visit {
+	border: 1px solid #000000;
+}
+.main h3 {
+	font-size: 35px;
+	margin-top: 18px;
+	font-family: High Tower Text, sample;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.main a {
+	text-decoration: none;
+	color: #333333;
+}
+.main:last-child {
+	float: right;
+	margin-right: 36px;
+}
+.main:first-child {
+	margin-left: 36px;
+}
+.main:nth-child(2) {
+	margin-left: 82px;
+}
+.main h2 {
+	position: absolute;
+    margin: 5px 88px 0 88px;
+    font-family: High Tower Text, sample;
+	font-weight: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+.one-form legend {
+	position: absolute;
+	display: block;
+	text-align: center;
+	left: 0;
+	right: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.one-form fieldset {
+	position: relative;
+	background-color: #e9e8e8;
+	border: none;
+	padding: 4px 15px 20px;
+}
+.one-form_row label {
+	text-align: left;
+	display: block;
+	margin-top: 19px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+.one-form_row input {
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	padding: 6px;
+	line-height: 18px;
+	box-sizing: border-box;
+	box-shadow: 1px 2px 5px 0 rgba(0, 1, 1, 0.23) inset;
+}
